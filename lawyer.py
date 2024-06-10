@@ -12,7 +12,7 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-wTEuxQogytTYz1e3Yl6wT3BlbkFJqTliRDaIB43D
 
 def qa(query):
     # Load document
-    loader = PyPDFLoader("C:\\Users\\hp\\Downloads\\ken127322_merged.pdf")
+    loader = PyPDFLoader("ken127322_merged.pdf")
     documents = loader.load()
     # Split the documents into chunks
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
