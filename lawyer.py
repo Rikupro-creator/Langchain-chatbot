@@ -8,7 +8,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-wTEuxQogytTYz1e3Yl6wT3BlbkFJqTliRDaIB43DS5PoPTpo"
+os.environ["OPENAI_API_KEY"] = "sk-proj-vWoeiSVQih2q27GtAkr9T3BlbkFJjHQGo7NGwqM8s7JvXV5D"
 
 def qa(query):
     # Load document
